@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+/* Header Part */
+header {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;
+    gap: 30px;
+
+    position: fixed;
+    top: 0;
+    background-color: white;
+    width: 100%;
+
+}
+
+/* Logo and address */
+.leftHeader {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    border-right: 1px solid #F2F2F2;
+    padding: 24px 30px;
+}
+
+.address {
+    padding: 20px 30px;
+}
+
+.address h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.address p {
+    font-size: 14px;
+}
+
+.loginSymbol {
+    display: none;
+}
+
+/* Search bar */
+.search {
+    flex-grow: 1;
+    display: flex;
+    background-color: #F8F8F8;
+    border-radius: 12px;
+    border: 1px solid #EEEEEE;
+}
+
+.search button {
+    padding: 15px;
+    border: none;
+    background-color: transparent;
+}
+
+.search button i {
+    font-size: 20px;
+}
+
+.search input {
+    flex-grow: 1;
+    border: none;
+    background-color: transparent;
+}
+
+.search input:focus {
+    outline: none;
+}
+
+/* Login and Cart section */
+.loginCart {
+    display: flex;
+    gap: 50px;
+    margin-right: 40px;
+}
+
+.loginCart button {
+    padding: 15px;
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+}
+
+.loginCart button:last-child {
+    color: white;
+    background-color: #0C831F;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/* Middele Banner Part  */
+.bannerSection {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.bannerSection img {
+    margin-top: 80px;
+    width: 100%;
+}
+
+/* Order Section */
+.orderBanner {
+    display: flex;
+    max-width: 1280px;
+    margin: auto;
+}
+
+.orderBanneritems {
+    flex-basis: 26%;
+    margin: 1%;
+}
+
+.orderBanneritems img {
+    width: 100%;
+}
+
+/* Category Section (Products) */
+.categorySection {
+    max-width: 1280px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.categoryItems {
+    flex-basis: 10%;
+}
+
+.categoryItems img {
+    width: 100%;
+}
+
+/* Shop by category */
+.ProductSection {
+    max-width: 1280px;
+}
+
+.productHeading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.productHeading a {
+    color: #128624;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.Products {
+    display: flex;
+    width: 100%;
+    margin: 30px 0;
+    flex-wrap: wrap;
+}
+
+.productItem {
+    flex-basis: 15%;
+    margin: 0 0 10px 1.5%;
+    border: 1px solid #F9F9F9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px #ccc;
+}
+
+.productImg {
+    text-align: center;
+    padding: 15px;
+}
+
+.productImg h6 {
+    font-size: 14px;
+    font-weight: 550;
+    text-align: left;
+}
+
+.productImg p {
+    font-size: 12px;
+    text-align: left;
+    padding-top: 15px;
+}
+
+.other p {
+    padding-top: 33px;
+}
+
+.amountAdd {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    align-items: center;
+}
+
+.amountAdd h6 {
+    font-size: 12px;
+}
+
+.amountAdd button {
+    font: 14px;
+    font-weight: 550;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 1px solid #34881A;
+    background-color: #F7FFF9;
+    color: #34881A;
+}
+
+/* How to look in phones */
+.Productsinphone {
+    display: none;
+}
+
+/* shop by store */
+.shopbystore {
+    display: none;
+}
+
+.hotDeals {
+    display: none;
+}
+
+.Yourdailyfreshneeds {
+    display: none;
+}
+
+.cleaningSection {
+    display: none;
+}
+
+/* Footer */
+footer {
+    padding: 40px 0 0 0;
+}
+.footer-mid {
+    max-width: 1220px;
+    margin: auto;
+}
+.footer-mid-row1 {
+    width: 100%;
+    display: flex;
+    gap: 40px;
+}
+.footer-mid-row1-left {
+    flex-basis: 30%;
+}
+.footer-mid-row1-left h4 {
+    margin-bottom: 20px;
+}
+.usefulLinks {
+    display: flex;
+}
+.usefulLinks ul {
+    flex-basis: 33%;
+    list-style: none;
+}
+.usefulLinks ul li a {
+    color: #767676;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 15px;
+}
+.footer-mid-row1-right {
+    flex-basis: 70%;
+}
+.categoryHeading {
+    display: flex;
+    text-align: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+.categoryHeading a {
+    color: #17892A;
+}
+
+.footer-mid-row2 {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    gap: 80px;
+}
+.left p {
+    font-size: 14px;
+    color: #767676;
+    padding-left: 90px;
+}
+.Middle {
+    display: flex;
+    align-items: center;
+}
+.download {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.Middle  b {
+    color: #767676;
+    font-size: 15px;
+}
+.socialMedia a {
+    padding-left: 30px;
+}
+.description {
+    color: #767676;
+    font-size: 14px;
+    margin-top: 40px;
+}
