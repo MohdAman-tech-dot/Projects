@@ -13,12 +13,10 @@ header {
     border-top: 1px solid #F2F2F2;
     border-bottom: 1px solid #F2F2F2;
     gap: 30px;
-
     position: fixed;
     top: 0;
     background-color: white;
     width: 100%;
-
 }
 
 /* Logo and address */

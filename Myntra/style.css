@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Logo and navBar */
+header {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    box-shadow: 0 2px 5px lightgray;
+    position: fixed;
+    background-color: white;
+}
+
+.Logo-Menu {
+    width: 48%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: 3%;
+}
+
+.Navbar {
+    display: flex;
+    gap: 35px;
+}
+
+.Navbar li {
+    font-size: 12px;
+    font-weight: 550;
+    color: #282C3F;
+}
+
+/* Search Bar */
+.SearchBar-profile-Wish-Bag {
+    width: 48%;
+    display: flex;
+    align-items: center;
+    margin-right: 1%;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search i {
+    background-color: #F5F5F6;
+    padding: 12px;
+    border-radius: 5px 0 0 5px;
+    font-size: 15px;
+}
+
+.search input {
+    border: none;
+    padding: 12px;
+    background-color: #F5F5F6;
+    border-radius: 0 5px 5px 0;
+}
+
+/* Profile Wishlist and Cart */
+.profile {
+    margin-left: 30px;
+}
+.profile ul{
+    display: flex;
+    gap: 25px;
+}
+.profile ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    gap: 5px;
+}
+
+/* Banner section */
+.banner {
+    width: 100%;
+}
+.banner img {
+    width: 100%;
+    margin-top: 130px;
+}
+
+/* Brand section */
+.Medal-Worthy-Brands-To-Bag {
+    width: 100%;
+}
+.Medal-Worthy-Brands-To-Bag h1 {
+    font-size: 30px;
+    margin: 100px 0 80px 0;
+}
+.brands {
+    width: 100%;
+    display: flex;
+    gap: 0.5px;
+}
+
+/* Category section */
+.CategorySection h1 {
+    max-width: 1264.67px;
+    font-size: 30px;
+    margin: 100px 0 80px 35px;
+}
+.category {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.categoryimage {
+    display: flex;
+    margin: auto;
+}
+.categoryimage img {
+    height: 300px;
+    width: 210px;
+}
+.categoryimageLast {
+    padding-bottom: 60px;
+}
+
+/* footer */
+ footer {
+    background-color: #FAFBFC;
+    padding-top: 1px;
+} 
+.footer-firstRow {
+    display: flex;
+    margin: 80px 0 0 100px;
+    gap: 50px;
+}
+.footer-firstRow ul li {
+    font-size: 14px;
+    padding-bottom: 10px;
+    color: #9496AB;
+}
+.footer-firstRow ul li:nth-child(1), .AppStore p  {
+    font-size: 12px;
+    font-weight: 600;
+    padding-bottom: 30px;
+    color: #282C3F;
+}
+.Links {
+    font-size: 12px;
+    padding: 13px 0;
+    font-weight: 550;
+}
+.social p {
+    margin-top: 30px;
+    padding-bottom: 15px;
+}
+.socialLinks a{
+    margin-right: 10px;    
+}
+
+.desktop-section {
+    width: 250px;
+    margin-left: 60px;
+}
+.gaurantee {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 20px;
+    line-height: 22px;
+}
+.productGaurantee {
+    font-size: 14px;
+    color: #9496AB;
+}
+.productGaurantee strong {
+    font-weight: 700;
+    color: #282c3f;
+}
